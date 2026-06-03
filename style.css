@@ -1,0 +1,88 @@
+body{
+
+    
+    background:
+    radial-gradient(
+        circle at top left,
+        rgba(59,130,246,0.2),
+        transparent 30%
+    ),
+    radial-gradient(
+        circle at bottom right,
+        rgba(250,204,21,0.2),
+        transparent 30%
+    ),
+    #0A0A0A;
+
+    
+    color:white;
+    font-family:Arial, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.container{
+    width:800px;
+    padding:30px;
+    background:#141414;
+    border-radius:15px;
+}
+
+h1{
+    text-align:center;
+    color:#FFD60A;
+}
+
+input{
+    width:100%;
+    margin:20px 0;
+}
+
+.upload-btn{
+    background:#3B82F6;
+    color:white;
+    border:none;
+    padding:14px 25px;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.upload-btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 0 20px #3B82F6;
+}
+
+.upload-area{
+    border:2px dashed #FACC15;
+    padding:40px;
+    text-align:center;
+    border-radius:15px;
+    margin:20px 0;
+}
+
+.upload-area:hover{
+    background:#1e1e1e;
+}
+
+.score{
+    color:#FFD60A;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.good{
+    color:#22C55E;
+}
+
+.bad{
+    color:#EF4444;
+}
+
+.report{
+    margin-top:20px;
+    line-height:2;
+}
